@@ -1,0 +1,30 @@
+  {
+	"lang": "en",
+	"name": "Tisa TV",
+	"scope": "/",
+	"display": "standalone",
+	"start_url": "/",
+	"short_name": "Tisa TV",
+	"theme_color": "#000000",
+	"orientation": "portrait",
+	"background_color": "#18191c",
+	"related_applications": [],	      
+    "description": "Live Streaming",
+	"serviceworker": {
+        "src": "/",
+        "scope": "/",
+        "use_cache": true
+    },
+    "icons": [
+        {
+            "src": "https://cdn.jsdelivr.net/gh/noxihl/ig@main/tisapk.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "https://cdn.jsdelivr.net/gh/noxihl/ig@main/tisapk.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }	
+    ]
+}
